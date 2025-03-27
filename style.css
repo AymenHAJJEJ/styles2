@@ -1,0 +1,115 @@
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Skip to main content link */
+a.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: white;
+    padding: 10px;
+    z-index: 100;
+}
+
+a.skip-link:focus {
+    top: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+
+nav img {
+    width: 10%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Commented out existing li styling */
+/* li {
+    display: inline-block;
+    width: auto;
+} */
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style the main content */
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grid layout */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+/* Flex layout */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the h1 */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: white;
+}
+
+/* Style paragraph text */
+p {
+    line-height: 1.6;
+}
